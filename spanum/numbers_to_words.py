@@ -17,6 +17,15 @@ CENTENAS = ["", "ciento", "doscientos", "trescientos", "cuatrocientos",
             "quinientos", "seiscientos", "setecientos", "ochocientos", "novecientos"]
 
 def number_to_words(n:  int) -> str:
+    """
+    Converts a number to its Spanish word representation.
+
+    :param n: Oany number you want to convert.
+    :type n int
+    :raise ValueError: If the n is too big.
+    :return: The spanish word for provided number.
+    :rtype: str
+    """
     if n < 0 or n >= 1_000_000_000:
         raise ValueError("Número fuera del rango soportado (0 <= n < 1,000,000,000)")
 

@@ -14,6 +14,15 @@ WORDS_TO_NUM = {
 }
 
 def words_to_number(text: str) -> int:
+    """
+    Converts a Spanish numeral to an integer.
+    
+    :param text: any Spanish numeral you want to convert.
+    :type text str
+    :raise ValueError: occurs when an unknown word found in text.
+    :return: The spanish word for provided number.
+    :rtype: int
+    """
     text = text.lower().replace(" y ", " ")
     words = text.split()
     total = 0
