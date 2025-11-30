@@ -25,5 +25,5 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://github.com/marydrobotun/spanum"
-Documentation = "https://readthedocs.org"
-Repository = "https://github.com/marydrobotun/spanum/blob/main/README.md"
+Documentation = "https://spanum.readthedocs.io/en/latest"
+Repository = "https://github.com/marydrobotun/spanum"
