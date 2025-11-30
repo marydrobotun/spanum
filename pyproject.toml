@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "spanum"
+version = "0.0.1"
+
+requires-python = ">=3.10"
+authors = [
+  {name = "Mary Drobotun", email = "marydrobotun@gmail.com"}
+]
+maintainers = [
+  {name = "Mary Drobotun", email = "marydrobotun@gmail.com"}
+]
+description = "Python module that converts numbers to Spanish numerals and vice versa."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICEN[CS]E.*"]
+keywords = ["spanish", "numbers", "numerals"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Homepage = "https://github.com/marydrobotun/spanum"
+Documentation = "https://readthedocs.org"
+Repository = "https://github.com/marydrobotun/spanum/blob/main/README.md"
